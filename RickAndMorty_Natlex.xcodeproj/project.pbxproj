@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		93B3CC352CBAEE3800B7CF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B3CC172CBAEE3500B7CF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B3CC1E2CBAEE3500B7CF41;
+			remoteInfo = RickAndMorty_Natlex;
+		};
+		93B3CC3F2CBAEE3800B7CF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B3CC172CBAEE3500B7CF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B3CC1E2CBAEE3500B7CF41;
+			remoteInfo = RickAndMorty_Natlex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93B3CC1F2CBAEE3500B7CF41 /* RickAndMorty_Natlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty_Natlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B3CC342CBAEE3800B7CF41 /* RickAndMorty_NatlexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMorty_NatlexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B3CC3E2CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMorty_NatlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93B3CC212CBAEE3500B7CF41 /* RickAndMorty_Natlex */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RickAndMorty_Natlex;
+			sourceTree = "<group>";
+		};
+		93B3CC372CBAEE3800B7CF41 /* RickAndMorty_NatlexTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RickAndMorty_NatlexTests;
+			sourceTree = "<group>";
+		};
+		93B3CC412CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RickAndMorty_NatlexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B3CC1C2CBAEE3500B7CF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B3CC312CBAEE3800B7CF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B3CC3B2CBAEE3800B7CF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B3CC162CBAEE3500B7CF41 = {
+			isa = PBXGroup;
+			children = (
+				93B3CC212CBAEE3500B7CF41 /* RickAndMorty_Natlex */,
+				93B3CC372CBAEE3800B7CF41 /* RickAndMorty_NatlexTests */,
+				93B3CC412CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests */,
+				93B3CC202CBAEE3500B7CF41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B3CC202CBAEE3500B7CF41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B3CC1F2CBAEE3500B7CF41 /* RickAndMorty_Natlex.app */,
+				93B3CC342CBAEE3800B7CF41 /* RickAndMorty_NatlexTests.xctest */,
+				93B3CC3E2CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B3CC1E2CBAEE3500B7CF41 /* RickAndMorty_Natlex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B3CC482CBAEE3800B7CF41 /* Build configuration list for PBXNativeTarget "RickAndMorty_Natlex" */;
+			buildPhases = (
+				93B3CC1B2CBAEE3500B7CF41 /* Sources */,
+				93B3CC1C2CBAEE3500B7CF41 /* Frameworks */,
+				93B3CC1D2CBAEE3500B7CF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93B3CC212CBAEE3500B7CF41 /* RickAndMorty_Natlex */,
+			);
+			name = RickAndMorty_Natlex;
+			packageProductDependencies = (
+			);
+			productName = RickAndMorty_Natlex;
+			productReference = 93B3CC1F2CBAEE3500B7CF41 /* RickAndMorty_Natlex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93B3CC332CBAEE3800B7CF41 /* RickAndMorty_NatlexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B3CC4B2CBAEE3800B7CF41 /* Build configuration list for PBXNativeTarget "RickAndMorty_NatlexTests" */;
+			buildPhases = (
+				93B3CC302CBAEE3800B7CF41 /* Sources */,
+				93B3CC312CBAEE3800B7CF41 /* Frameworks */,
+				93B3CC322CBAEE3800B7CF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B3CC362CBAEE3800B7CF41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93B3CC372CBAEE3800B7CF41 /* RickAndMorty_NatlexTests */,
+			);
+			name = RickAndMorty_NatlexTests;
+			packageProductDependencies = (
+			);
+			productName = RickAndMorty_NatlexTests;
+			productReference = 93B3CC342CBAEE3800B7CF41 /* RickAndMorty_NatlexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93B3CC3D2CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B3CC4E2CBAEE3800B7CF41 /* Build configuration list for PBXNativeTarget "RickAndMorty_NatlexUITests" */;
+			buildPhases = (
+				93B3CC3A2CBAEE3800B7CF41 /* Sources */,
+				93B3CC3B2CBAEE3800B7CF41 /* Frameworks */,
+				93B3CC3C2CBAEE3800B7CF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B3CC402CBAEE3800B7CF41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93B3CC412CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests */,
+			);
+			name = RickAndMorty_NatlexUITests;
+			packageProductDependencies = (
+			);
+			productName = RickAndMorty_NatlexUITests;
+			productReference = 93B3CC3E2CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B3CC172CBAEE3500B7CF41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					93B3CC1E2CBAEE3500B7CF41 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					93B3CC332CBAEE3800B7CF41 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 93B3CC1E2CBAEE3500B7CF41;
+					};
+					93B3CC3D2CBAEE3800B7CF41 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 93B3CC1E2CBAEE3500B7CF41;
+					};
+				};
+			};
+			buildConfigurationList = 93B3CC1A2CBAEE3500B7CF41 /* Build configuration list for PBXProject "RickAndMorty_Natlex" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B3CC162CBAEE3500B7CF41;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93B3CC202CBAEE3500B7CF41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B3CC1E2CBAEE3500B7CF41 /* RickAndMorty_Natlex */,
+				93B3CC332CBAEE3800B7CF41 /* RickAndMorty_NatlexTests */,
+				93B3CC3D2CBAEE3800B7CF41 /* RickAndMorty_NatlexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B3CC1D2CBAEE3500B7CF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B3CC322CBAEE3800B7CF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B3CC3C2CBAEE3800B7CF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B3CC1B2CBAEE3500B7CF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B3CC302CBAEE3800B7CF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B3CC3A2CBAEE3800B7CF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B3CC362CBAEE3800B7CF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B3CC1E2CBAEE3500B7CF41 /* RickAndMorty_Natlex */;
+			targetProxy = 93B3CC352CBAEE3800B7CF41 /* PBXContainerItemProxy */;
+		};
+		93B3CC402CBAEE3800B7CF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B3CC1E2CBAEE3500B7CF41 /* RickAndMorty_Natlex */;
+			targetProxy = 93B3CC3F2CBAEE3800B7CF41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93B3CC462CBAEE3800B7CF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93B3CC472CBAEE3800B7CF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B3CC492CBAEE3800B7CF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty_Natlex/Preview Content\"";
+				DEVELOPMENT_TEAM = 684T2E6SZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khawarali5.RickAndMorty-Natlex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93B3CC4A2CBAEE3800B7CF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty_Natlex/Preview Content\"";
+				DEVELOPMENT_TEAM = 684T2E6SZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khawarali5.RickAndMorty-Natlex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93B3CC4C2CBAEE3800B7CF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 684T2E6SZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khawarali5.RickAndMorty-NatlexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMorty_Natlex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RickAndMorty_Natlex";
+			};
+			name = Debug;
+		};
+		93B3CC4D2CBAEE3800B7CF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 684T2E6SZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khawarali5.RickAndMorty-NatlexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMorty_Natlex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RickAndMorty_Natlex";
+			};
+			name = Release;
+		};
+		93B3CC4F2CBAEE3800B7CF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 684T2E6SZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khawarali5.RickAndMorty-NatlexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RickAndMorty_Natlex;
+			};
+			name = Debug;
+		};
+		93B3CC502CBAEE3800B7CF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 684T2E6SZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khawarali5.RickAndMorty-NatlexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RickAndMorty_Natlex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B3CC1A2CBAEE3500B7CF41 /* Build configuration list for PBXProject "RickAndMorty_Natlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B3CC462CBAEE3800B7CF41 /* Debug */,
+				93B3CC472CBAEE3800B7CF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B3CC482CBAEE3800B7CF41 /* Build configuration list for PBXNativeTarget "RickAndMorty_Natlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B3CC492CBAEE3800B7CF41 /* Debug */,
+				93B3CC4A2CBAEE3800B7CF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B3CC4B2CBAEE3800B7CF41 /* Build configuration list for PBXNativeTarget "RickAndMorty_NatlexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B3CC4C2CBAEE3800B7CF41 /* Debug */,
+				93B3CC4D2CBAEE3800B7CF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B3CC4E2CBAEE3800B7CF41 /* Build configuration list for PBXNativeTarget "RickAndMorty_NatlexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B3CC4F2CBAEE3800B7CF41 /* Debug */,
+				93B3CC502CBAEE3800B7CF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B3CC172CBAEE3500B7CF41 /* Project object */;
+}
