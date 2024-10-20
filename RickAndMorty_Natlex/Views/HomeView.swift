@@ -17,12 +17,27 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             // content
-            VStack {
+            VStack(spacing: 16) {
                 SearchBarView(searchText: $vm.searchText)
-                ImageSliderView(allCharacter: $vm.allCharacters)
-                DeadAliveStatusView(selectedStatus: 0)
-                Spacer(minLength: 0)
+                    .padding(.horizontal)
+                ScrollView {
+                    ImageSliderView()
+                    DeadAliveStatusView()
+                        .padding(.horizontal)
+                    CharacterSpecieView()
+                        .padding(.horizontal)
+                    LastKnownLocationView(allLocations: $vm.allLocations)
+                        .padding(.horizontal)
+                    FirstSeenInView(allLocations: $vm.allLocations)
+                        .padding(.horizontal)
+                    CharacterCardView(allCharacter: $vm.filteredCharacters)
+                        .padding(.horizontal)
+                    Spacer(minLength: 0)
+                }
             }
+        }
+        .onAppear{
+            vm.filterCharacters()
         }
     }
 }
@@ -32,5 +47,5 @@ struct HomeView: View {
         HomeView()
             .navigationBarHidden(true)
     }
-    .environmentObject(DeveloperPreview.instance.homeVM)
+    .environmentObject(HomeViewModel())
 }

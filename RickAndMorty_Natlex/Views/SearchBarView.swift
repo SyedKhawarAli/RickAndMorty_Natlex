@@ -33,7 +33,6 @@ struct SearchBarView: View {
         RoundedRectangle(cornerRadius: 16)
             .fill(Color.theme.searchBarColor)
         )
-        .padding()
     }
 }
 

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LocationModel: Codable {
+struct LocationModel: Codable, Identifiable, Hashable {
     let id: Int?
     let name, type, dimension: String?
     let residents: [String]?

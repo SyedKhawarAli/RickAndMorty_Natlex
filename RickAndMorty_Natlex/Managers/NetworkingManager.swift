@@ -45,7 +45,7 @@ class NetworkingManager {
         case .finished:
             break
         case .failure(let failure):
-            print(failure.localizedDescription)
+            print(String(describing: failure))
         }
     }
 }

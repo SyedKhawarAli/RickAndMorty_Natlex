@@ -9,59 +9,59 @@ import SwiftUI
 
 struct DeadAliveStatusView: View {
     
-    @State var selectedStatus: Int = 0
+    @EnvironmentObject private var vm: HomeViewModel
 
     var body: some View {
-//        Picker("What is your favorite color?", selection: $selectedStatus) {
-//            Text("Dead").tag(0)
-//            Text("Alive").tag(1)
-//        }
-//        .pickerStyle(.segmented)
-//        .colorMultiply(.theme.accent)
-//        .background(Color.theme.searchBarColor)
-//        .scaledToFit()
-//        .scaleEffect(CGSize(width: 1, height: 1.25))
         CustomSegmentedControl(
-            preselectedIndex: $selectedStatus,
-            options: ["Dead", "Alive"]
+            preselectedStatus: $vm.characterStatus,
+            options: Status.allCases,
+            color: Color.theme.accent,
+            bgColor: Color.theme.searchBarColor
         )
-        .padding()
     }
 }
 
 #Preview {
     DeadAliveStatusView()
+        .environmentObject(HomeViewModel())
 }
 
 struct CustomSegmentedControl: View {
-    @Binding var preselectedIndex: Int
-    var options: [String]
-    let color = Color.theme.accent
+    @Binding var preselectedStatus: Status
+    var options: [Status]
+    var color: Color = .blue
+    var bgColor: Color = .blue.opacity(0.5)
 
     var body: some View {
         HStack(spacing: 0) {
-            ForEach(options.indices, id:\.self) { index in
-                ZStack {
-                    Rectangle()
-                        .fill(color.opacity(0.2))
-
-                    Rectangle()
-                        .fill(color)
-                        .cornerRadius(20)
-                        .padding(2)
-                        .opacity(preselectedIndex == index ? 1 : 0.01)
-                        .onTapGesture {
+            
+            ForEach(options.indices, id: \.self) { index in
+                if options[index] != .unknown {
+                    ZStack {
+                        Rectangle()
+                            .fill(bgColor)
+                        
+                        Rectangle()
+                            .fill(color)
+                            .cornerRadius(12)
+                            .padding(2)
+                            .opacity(preselectedStatus == options[index] ? 1 : 0.01)
+                            .onTapGesture {
                                 withAnimation(.interactiveSpring()) {
-                                    preselectedIndex = index
+                                    preselectedStatus = options[index]
                                 }
                             }
+                            .padding(4)
+                    }
+                    .overlay(
+                        Text(options[index].rawValue)
+                            .font(.headline)
+                            .foregroundColor(preselectedStatus == options[index] ? .black : .white)
+                    )
                 }
-                .overlay(
-                    Text(options[index])
-                )
             }
         }
-        .frame(height: 50)
-        .cornerRadius(20)
+        .frame(height: 54)
+        .cornerRadius(16)
     }
 }

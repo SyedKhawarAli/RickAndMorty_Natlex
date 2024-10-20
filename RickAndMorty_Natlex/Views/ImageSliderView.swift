@@ -9,26 +9,22 @@ import SwiftUI
 
 struct ImageSliderView: View {
  
-    @Binding var allCharacter: [CharacterModel]
     @State var currentIndex: Int = 0
+    @State var wallpapersArray: [String] = ["wallpaper1", "wallpaper2", "wallpaper3"]
     
     var body: some View {
         ZStack {
             HStack {
-                if allCharacter.count > 0 {
-                    AsyncImage(url: URL(string: allCharacter[currentIndex].image ?? "")) { image in
-                        image.resizable()
-                    } placeholder: {
-                        Color.gray
-                    }
-                    .frame(height: 150)
+                Image(wallpapersArray[currentIndex])
+                    .resizable()
+                    .frame(height: 100)
+                    .aspectRatio(contentMode: .fill)
                     .frame(maxWidth: .infinity)
-                }
             }
             HStack {
-                if allCharacter.count > 0 {
+                if wallpapersArray.count > 0 {
                     Button(action: {
-                        currentIndex = currentIndex == 0 ? allCharacter.count - 1 : currentIndex - 1
+                        currentIndex = currentIndex == 0 ? wallpapersArray.count - 1 : currentIndex - 1
                     }) {
                         Image(systemName: "chevron.left")
                             .renderingMode(.template)
@@ -44,7 +40,7 @@ struct ImageSliderView: View {
                     Spacer()
                     
                     Button(action: {
-                        currentIndex = currentIndex == allCharacter.count - 1 ? 0 : currentIndex + 1
+                        currentIndex = currentIndex == wallpapersArray.count - 1 ? 0 : currentIndex + 1
                     }) {
                         Image(systemName: "chevron.right")
                             .renderingMode(.template)
@@ -64,5 +60,5 @@ struct ImageSliderView: View {
 }
 
 #Preview {
-    ImageSliderView(allCharacter: .constant(DeveloperPreview.instance.allCharacters))
+    ImageSliderView()
 }

@@ -13,20 +13,18 @@ struct RickAndMorty_NatlexApp: App {
     @StateObject private var homeViewModel = HomeViewModel()
 
     init() {
-        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(Color.theme.accent)]
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color.theme.accent)]
         UINavigationBar.appearance().tintColor = UIColor(Color.theme.accent)
-//        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor(Color.theme.accent)
     }
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
+            NavigationStack {
                 HomeView()
                     .navigationBarHidden(true)
             }
             .environment(\.managedObjectContext, persistenceController.container.viewContext)
             .environmentObject(homeViewModel)
+            .preferredColorScheme(.dark)
         }
     }
 }
